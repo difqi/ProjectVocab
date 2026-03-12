@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vocab Quiz Oxvord 3000</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="font/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="logo">VocabQuiz OXFORD 3000</h1>
+
+        <div class="divider"></div>
+
+        <p class="subtitle">
+            Pilih arti yang benar dari pilihan di bawah!
+        </p>
+
+        <select id="mode">
+            <option value="en-id">English → Indonesia</option>
+            <option value="id-en">Indonesia → English</option>
+        </select>
+
+        <h2 id="question">Loading...</h2>
+
+        <div id="choices"></div>
+
+        <p class="learn">Selamat belajar!</p>
+
+        <div class="divider"></div>
+
+        <div class="scoreBox">
+
+            <div class="score">
+
+                <span id="correct">0</span>
+
+                <p>BENAR</p>
+
+            </div>
+
+            <div class="score">
+
+                <span id="wrong">0</span>
+
+                <p>SALAH</p>
+
+            </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="soundSetting">
+
+            Pengaturan suara :
+
+            <button id="soundBtn">
+
+                <i class="fas fa-volume-up"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        Made with <i class="fas fa-heart"></i> by Diffx
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

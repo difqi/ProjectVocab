@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+
+    background: #2c3453;
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100vh;
+
+    margin: 0;
+
+}
+
+.container {
+
+    text-align: center;
+
+    width: 90%;
+
+    max-width: 420px;
+
+}
+
+.logo {
+
+    letter-spacing: 8px;
+
+    font-weight: 600;
+
+}
+
+.subtitle {
+
+    margin: 15px 0 15px;
+
+    color: #d6d6d6;
+
+}
+
+.divider {
+
+    width: 100%;
+
+    height: 3px;
+
+    background: #d8a7ad;
+
+    margin: 25px 0;
+
+}
+
+#mode {
+
+    padding: 8px;
+
+    border-radius: 6px;
+
+    margin-bottom: 10px;
+
+}
+
+#question {
+
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.choice {
+
+    width: 100%;
+
+    padding: 16px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    border-radius: 40px;
+
+    background: #d8a7ad;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-weight: bold;
+}
+
+.choice:hover {
+
+    opacity: 0.9;
+
+}
+
+.correct {
+
+    background: #4bd66b !important;
+
+}
+
+.wrong {
+
+    background: #ff5c5c !important;
+
+}
+
+.learn {
+
+    margin-top: 10px;
+
+    color: #ddd;
+
+}
+
+.scoreBox {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+}
+
+.score {
+
+    background: #d8a7ad;
+
+    padding: 20px;
+
+    width: 90px;
+
+    border-radius: 6px;
+
+    color: #2c3453;
+
+}
+
+.score span {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+}
+
+.soundSetting {
+
+    margin-top: 10px;
+
+}
+
+#soundBtn {
+
+    background: #d8a7ad;
+
+    border: none;
+
+    padding: 8px 14px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    margin-left: 10px;
+
+}
+
+footer {
+
+    margin-top: 40px;
+
+    font-size: 14px;
+
+    color: #bbb;
+
+}
+
+/* MOBILE */
+
+@media(max-width:500px) {
+
+    #question {
+
+        font-size: 24px;
+
+    }
+
+    .choice {
+
+        padding: 14px;
+
+        font-size: 15px;
+
+    }
+
+}
